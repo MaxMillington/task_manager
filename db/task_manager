@@ -1,6 +1,9 @@
 ---
 tasks:
-- id: 1
-  title: Hello
+- id: 2
+  title: Buy Ingredients
+  description: Cheese, Tomatoes, Flour, Salt, Yeast, Basil, Olio, Sale
+- id: 3
+  title: Super Task
   description: Do it
-total: 1
+total: 3
