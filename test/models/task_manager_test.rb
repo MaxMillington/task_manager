@@ -26,7 +26,6 @@ class TaskManagerTest < Minitest::Test
     TaskManager.create({ :title       => "2 title",
                          :description => "2 description"})
     assert_equal "a title", TaskManager.find(TaskManager.all[0].id).title
-    # assert_equal "2 description", TaskManager.find(TaskManager.all[2].description)
   end
 
   def test_it_can_update_a_task
