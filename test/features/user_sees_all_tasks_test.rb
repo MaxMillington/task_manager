@@ -70,7 +70,7 @@ class UserSeesAllTasksTest < FeatureTest
     fill_in('task[title]', with: "Ragu")
     fill_in('task[description]', with: "Make it")
     click_button("Update Task")
-    
+
     assert page.has_content?("Ragu")
 
   end
